@@ -11,7 +11,8 @@ Ponadto, trzeba obsłużyć szereg parametrów:
 * `l2 (float)` współczynnik regularyzacji l2
 * `learning_rate (float)` learning rate
 * `decay (float)` decay dla learning rate (tzn. co epokę przemnażamy learning_rate przez decay)
-* `standardize` standaryzacja danych przed uczeniem (średnia 0 i wariancja 1)
+* `standardize` standaryzacja danych przed uczeniem (średnia 0 i wariancja 1)  
+
 Uwaga:
 domyślne wartości parametrów powinny być sensowne (dawać sensowne wyniki na standardowych problemach),
 należy zaimplementować (i dostarczyć) również moduł test.py, w którym testujemy naszą implementację.
